@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mix It!",
+  "version": "1.0",
+  "description": "유튜브 믹스를 위한 확장입니다.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
