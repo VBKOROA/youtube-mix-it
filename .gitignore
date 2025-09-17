@@ -1,0 +1,55 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build / distribution
+dist/
+build/
+out/
+release/
+*.crx
+*.zip
+
+# Extension private keys / packaging (don't commit your private key)
+*.pem
+extension_*.pem
+key.pem
+
+# Environment & secrets
+.env
+.env.*.local
+secrets.json
+credentials.json
+
+# TypeScript / build cache
+*.tsbuildinfo
+.cache/
+.cache-loader/
+lib/
+es/
+cjs/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+logs/
+*.log
+tmp/
+temp/
+
+# Misc
+coverage/
+*.bak
+*.swp
